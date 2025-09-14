@@ -10,6 +10,10 @@ const toggleFavButton = document.getElementById("toggle-favourites");
 const loadingIndicator = document.getElementById("loading");
 const cardContainer = document.getElementById("pokemon-details");
 
+let data = null;
+let types = "";        
+let abilities = ""; 
+
 // Modal elements
 const modal = document.getElementById("pokemon-modal");
 const closeModal = document.getElementById("close-modal");
@@ -22,11 +26,6 @@ const modalWeightSpan = document.querySelector("#modal-weight span");
 const modalAbilitiesSpan = document.querySelector("#modal-abilities span");
 const modalStats = document.getElementById("modal-stats");
 const modalStatsContainer = document.querySelector(".modal-stats-container");
-
-let data = null;
-let types = "";        
-let abilities = ""; 
-
 
 searchButton.addEventListener("click", async function () {
     const hero = input.value.trim().toLowerCase();
