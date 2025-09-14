@@ -1,3 +1,5 @@
+![Pokemon](https://github.com/user-attachments/assets/8ecad985-3347-441a-9085-abc8fb1cb20a)
+
 Hi, this is my dynamic Pokedex Application - an application where users can search for Pokemon by name or ID, view their details in a styled card, open a modal to view more information, and add up to 6 Pokemon to a favourites list stored in localStoraage. It uses PokeAPI to fetch Pokemon data.
 
 Features
